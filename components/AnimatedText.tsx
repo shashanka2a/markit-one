@@ -57,3 +57,4 @@ export default function AnimatedText({ text, className }: AnimatedTextProps) {
   )
 }
 
+
