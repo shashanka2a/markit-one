@@ -1,0 +1,17 @@
+{
+  "name": "Markit.one",
+  "short_name": "Markit.one",
+  "description": "The end of fragmented stacks. FormEase, QRBee, and AdVerse combined into one cohesive operating system.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#f97316",
+  "background_color": "#FFFDF9",
+  "display": "standalone",
+  "start_url": "/"
+}
+
