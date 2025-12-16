@@ -3,6 +3,7 @@
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
 import BentoGrid from '@/components/BentoGrid'
+import Workflow from '@/components/Workflow'
 import ValueProp from '@/components/ValueProp'
 import Footer from '@/components/Footer'
 
@@ -18,11 +19,13 @@ export default function Home() {
         <Navigation />
         <Hero />
         <BentoGrid />
+        <Workflow />
         <ValueProp />
         <Footer />
     </div>
   )
 }
+
 
 
 

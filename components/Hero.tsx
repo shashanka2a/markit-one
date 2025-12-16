@@ -1,7 +1,7 @@
 'use client'
 
 import { motion, useScroll, useTransform } from 'framer-motion'
-import { ArrowRight, Play } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 
 export default function Hero() {
   const { scrollY } = useScroll()
@@ -39,29 +39,25 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.8 }}
-          className="mt-12 flex flex-col items-center justify-center gap-5 sm:flex-row"
+          className="mt-12 flex flex-col items-center justify-center"
         >
           <motion.button 
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="group relative flex h-14 items-center gap-3 rounded-full bg-slate-900 px-8 text-lg font-medium text-white transition-all hover:bg-orange-600 hover:shadow-xl hover:shadow-orange-500/30"
+            className="group relative flex h-14 items-center gap-3 rounded-full bg-slate-900 px-10 text-lg font-medium text-white transition-all hover:bg-orange-600 hover:shadow-xl hover:shadow-orange-500/30"
           >
-            Start Your Workspace
+            Start your unified workspace
             <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
           </motion.button>
-          <motion.button 
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="group flex h-14 items-center gap-3 rounded-full border-2 border-orange-100 bg-white px-8 text-lg font-medium text-slate-800 shadow-sm transition-all hover:border-orange-200 hover:text-orange-600"
-          >
-            <Play className="h-5 w-5 fill-current" />
-            Watch Showreel
-          </motion.button>
+          <p className="mt-4 text-xs sm:text-sm text-slate-500">
+            No credit card. Get a guided tour and a live ROI model on your current stack.
+          </p>
         </motion.div>
       </motion.div>
     </section>
   )
 }
+
 
 
 

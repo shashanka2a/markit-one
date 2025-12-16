@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
+        sans: ['var(--font-jakarta)', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
         serif: ['var(--font-serif)', 'serif'],
       },
     },
@@ -16,6 +17,7 @@ const config: Config = {
   plugins: [],
 }
 export default config
+
 
 
 
