@@ -26,7 +26,16 @@ export default function BentoGrid() {
               <div className="mb-8 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-indigo-100 text-indigo-600 shadow-sm">
                 <BarChart3 className="h-8 w-8" />
               </div>
-              <h3 className="font-serif text-4xl font-medium text-slate-900 tracking-tight">FormEase</h3>
+              <a
+                href="https://formease.xyz/"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-baseline gap-2 hover:text-orange-500 transition-colors"
+              >
+                <h3 className="font-serif text-4xl font-medium text-slate-900 tracking-tight">
+                  FormEase
+                </h3>
+              </a>
               <p className="mt-5 text-slate-600 font-normal leading-relaxed text-xl">
                 Logic-jumping forms meet enterprise-grade analytics. Visualize completion rates in real-time.
               </p>
@@ -65,7 +74,16 @@ export default function BentoGrid() {
               <div className="mb-8 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-rose-100 text-rose-600 shadow-sm">
                 <Clapperboard className="h-8 w-8" />
               </div>
-              <h3 className="font-serif text-4xl font-medium text-slate-900 tracking-tight">AdVerse AI</h3>
+              <a
+                href="https://www.adverse.media/"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-baseline gap-2 hover:text-orange-500 transition-colors"
+              >
+                <h3 className="font-serif text-4xl font-medium text-slate-900 tracking-tight">
+                  AdVerse AI
+                </h3>
+              </a>
               <p className="mt-5 text-slate-600 font-normal leading-relaxed text-xl">
                 Text-to-video specifically tuned for conversion. Generate 10 variations in seconds.
               </p>
@@ -107,7 +125,16 @@ export default function BentoGrid() {
               <div className="mb-8 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-amber-100 text-amber-600 shadow-sm">
                 <QrCode className="h-8 w-8" />
               </div>
-              <h3 className="font-serif text-3xl font-medium text-slate-900 tracking-tight">QRBee</h3>
+              <a
+                href="https://qrbee.io/"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-baseline gap-2 hover:text-orange-500 transition-colors"
+              >
+                <h3 className="font-serif text-3xl font-medium text-slate-900 tracking-tight">
+                  QRBee
+                </h3>
+              </a>
               <p className="mt-4 text-slate-600 font-normal text-lg">
                 Dynamic QR codes bridging physical & digital.
               </p>
@@ -147,5 +174,6 @@ export default function BentoGrid() {
     </section>
   )
 }
+
 
 

@@ -1,6 +1,6 @@
-# Markit.one - Next.js 15 Production App
+# Markit.one - Next.js 16 Production App
 
-A production-ready Next.js 15 application with Tailwind CSS v3, SEO optimization, and modern UI components.
+A production-ready Next.js 16 application with Tailwind CSS v3, SEO optimization, and modern UI components.
 
 ## Features
 
@@ -86,7 +86,7 @@ Update the `metadataBase` URL in `app/layout.tsx` to match your production domai
 
 ## Technologies
 
-- **Next.js 15**: React framework with App Router
+- **Next.js 16**: React framework with App Router
 - **Tailwind CSS v3**: Utility-first CSS framework
 - **TypeScript**: Type-safe JavaScript
 - **Framer Motion**: Animation library
@@ -95,5 +95,6 @@ Update the `metadataBase` URL in `app/layout.tsx` to match your production domai
 ## License
 
 © 2024 Markit.one Inc. All rights reserved.
+
 
 
